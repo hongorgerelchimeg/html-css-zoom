@@ -60,7 +60,6 @@ header {
 main {
 
     width: 100%;
-    min-height: calc(100vh - 3rem);
     background-color: var(--black);
     padding: 3rem 0;
     
@@ -71,7 +70,7 @@ main {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    /* align-content: flex-start; */
+    /* align-content: center; */
     flex-wrap: wrap;
 
 }
@@ -80,10 +79,10 @@ main {
     flex-grow: 0;
     display: flex;
     align-items: flex-end;
-    width: 150px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
     margin: 0.2rem 0.1rem;
-    background-image: url(https://picsum.photos/150/100);
+    background-image: url(https://picsum.photos/200/150);
     background-size: cover;
 }
 
