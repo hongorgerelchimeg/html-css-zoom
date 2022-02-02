@@ -76,13 +76,12 @@ main {
 }
 
 .client-box {
-    flex-grow: 0;
     display: flex;
     align-items: flex-end;
     width: 200px;
-    height: 150px;
+    height: 140px;
     margin: 0.2rem 0.1rem;
-    background-image: url(https://picsum.photos/200/150);
+    background-image: url(https://picsum.photos/200/140);
     background-size: cover;
 }
 
@@ -103,6 +102,8 @@ main {
 /* Footer */
 
 footer {
+    position: fixed;
+    bottom: 0;
     background-color: var(--dark_grey);
     width: 100%;
     height: 3rem;
