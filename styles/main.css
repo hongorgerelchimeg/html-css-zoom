@@ -56,3 +56,42 @@ header {
     
 }
 
+/* Main */
+main {
+
+    width: 100%;
+    background-color: var(--black);
+    padding: 4rem 0;
+    
+}
+
+.main-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.client-box {
+    flex-grow: 0;
+    display: flex;
+    align-items: flex-end;
+    width: 150px;
+    height: 100px;
+    margin: 0.2rem 0.1rem;
+    background-image: url(https://picsum.photos/150/100);
+    background-size: cover;
+}
+
+.client-btn {
+    background-color: rgba(83, 83, 83, 0.719);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    width: max-content;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+}
